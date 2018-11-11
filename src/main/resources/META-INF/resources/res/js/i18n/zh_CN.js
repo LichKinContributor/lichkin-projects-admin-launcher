@@ -757,28 +757,29 @@ $.LKExtendI18N({
 
     'grid' : {
       'title' : '排班列表',
-      'add_normal_btn' : '新增正常排班',
-      'add_doubleShift_btn' : '新增两班制',
-      'add_threeShifts_btn' : '新增三班制',
 
       'columns' : {
         'scheduleName' : '排班名称',
         'scheduleType' : '排班类型',
         'schedule_startTime' : '上班时间',
         'schedule_endTime' : '下班时间',
-        'earlyPunchTime' : '上班提前打卡',
-        'delayPunchTime' : '下班推迟打卡',
-        'allowLateTime' : '允许迟到时间',
-        'allowEarlyDepartureTime' : '允许早退时间',
+        'allowBeforeStartTimeMinutes' : '上班提前打卡',
+        'allowAfterStartTimeMinutes' : '上班延迟打卡',
+        'allowBeforeEndTimeMinutes' : '下班提前打卡',
+        'allowAfterEndTimeMinutes' : '下班延迟打卡',
         'remarks' : '备注'
-      }
-    },
+      },
 
-    'scheduleType' : {
-      'NOMARL' : '正常班',
-      'DOUBLE' : '两班制',
-      'THRIPLE' : '三班制',
-    }
+      'add_normal_btn' : '新增正常排班',
+      'add_doubleShift_btn' : '新增两班制',
+      'add_threeShifts_btn' : '新增三班制',
+      'edit' : '编辑排班',
+      'remove' : '删除排班',
+
+      'confirm' : {
+        'remove' : '数据删除后将不能恢复，确认删除么？',
+      },
+    },
   }
 });
 $.LKExtendI18N({
@@ -1381,7 +1382,7 @@ $.LKExtendI18N({
   }
 });
 $.LKExtendI18N({
-  'stockDetail' : {
+  'purchaseDetail' : {
     'title' : '采购单明细',
 
     'grid' : {
