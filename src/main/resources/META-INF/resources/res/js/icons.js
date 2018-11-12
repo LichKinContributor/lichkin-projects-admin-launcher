@@ -14,7 +14,8 @@ $.LKExtendICON({
   'FEMALE' : 'female',
   'MALE' : 'male',
 
-  'check' : 'check'
+  'check' : 'check',
+  'uncheck' : 'times'
 });
 $.LKExtendICON({
   'menuMgmt' : 'bars',
