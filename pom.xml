@@ -93,6 +93,12 @@
       <artifactId>lichkin-projects-activiti-db-connector</artifactId>
       <version>${com.lichkin.projects.activiti.version}</version>
     </dependency>
+    <!-- lichkin projects core -->
+    <dependency>
+      <groupId>com.lichkin.projects</groupId>
+      <artifactId>lichkin-projects-core-ALiYunSmsSender</artifactId>
+      <version>${com.lichkin.projects.core.version}</version>
+    </dependency>
     <!-- devtools -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
