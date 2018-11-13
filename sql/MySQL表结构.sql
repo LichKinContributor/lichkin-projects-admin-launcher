@@ -23,6 +23,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_comp` (
   `COMP_CODE` varchar(64) NOT NULL COMMENT '公司编码（工具类）',
   `COMP_NAME` varchar(64) NOT NULL COMMENT '公司名称',
   `COMP_KEY` varchar(16) NOT NULL COMMENT '公司标识',
+  `TOKEN` varchar(64) DEFAULT NULL COMMENT '令牌',
   `LINKMAN_NAME` varchar(128) DEFAULT NULL COMMENT '联系人姓名',
   `LINKMAN_CELLPHONE` varchar(11) DEFAULT NULL COMMENT '联系人手机号码',
   `TELEPHONE` varchar(16) DEFAULT NULL COMMENT '公司电话',
