@@ -600,6 +600,18 @@ CREATE TABLE IF NOT EXISTS `t_sys_employee_attendance` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='员工考勤记录表';
 
+-- DROP TABLE IF EXISTS `t_sys_comp_attendance_area_config`;
+CREATE TABLE IF NOT EXISTS `t_sys_comp_attendance_area_config` (
+  `ID` varchar(64) NOT NULL COMMENT '主键',
+  `COMP_ID` varchar(64) NOT NULL COMMENT '公司ID（t_sys_comp.ID）',
+  `LATITUDE` double NOT NULL COMMENT '纬度',
+  `LONGITUDE` double NOT NULL COMMENT '经度',
+  `ALTITUDE` double DEFAULT NULL COMMENT '高度',
+  `RADIUS` tinyint(4) NOT NULL COMMENT '水平面半径',
+  `OGHAM` tinyint(4) DEFAULT NULL COMMENT '垂直面落差',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='公司考勤范围配置表';
+
 -- DROP TABLE IF EXISTS `t_sys_employee_punch_the_clock`;
 CREATE TABLE IF NOT EXISTS `t_sys_employee_punch_the_clock` (
   `ID` varchar(64) NOT NULL COMMENT '主键',
