@@ -610,8 +610,8 @@ CREATE TABLE IF NOT EXISTS `t_sys_comp_attendance_area_config` (
   `LATITUDE` double NOT NULL COMMENT '纬度',
   `LONGITUDE` double NOT NULL COMMENT '经度',
   `ALTITUDE` double DEFAULT NULL COMMENT '高度',
-  `RADIUS` tinyint(4) NOT NULL COMMENT '水平面半径',
-  `OGHAM` tinyint(4) DEFAULT NULL COMMENT '垂直面落差',
+  `RADIUS` tinyint(4) NOT NULL COMMENT '水平面半径（50米）',
+  `OGHAM` tinyint(4) DEFAULT NULL COMMENT '垂直面落差（米）',
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='公司考勤范围配置表';
 
