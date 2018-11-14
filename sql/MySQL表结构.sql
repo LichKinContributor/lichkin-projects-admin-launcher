@@ -402,6 +402,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_app_version` (
   `APP_KEY` varchar(64) NOT NULL COMMENT '客户端唯一标识（字典）',
   `CLIENT_TYPE` varchar(10) NOT NULL COMMENT '客户端类型（枚举）',
   `FORCE_UPDATE` bit(1) NOT NULL COMMENT '强制更新',
+  `HANG_UP` bit(1) NOT NULL COMMENT '是否挂起',
   `PUBLISH_TIME` varchar(17) DEFAULT NULL COMMENT '发布时间（yyyyMMddHHmmssSSS）',
   `TIP` varchar(64) NOT NULL COMMENT '提示信息',
   `URL` varchar(128) NOT NULL COMMENT '下载地址',
