@@ -369,6 +369,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_activiti_form_data` (
   `APPROVER_TYPE` varchar(16) NOT NULL COMMENT '发起人类型（枚举）',
   `APPROVER_LOGIN_ID` varchar(64) NOT NULL COMMENT '发起人登录ID（根据approverType存放不同表ID）',
   `PROCESS_CODE` varchar(64) NOT NULL COMMENT '流程编码（字典）',
+  `STEP_COUNT` tinyint(4) NOT NULL COMMENT '流程步骤数',
   `FIELD1` varchar(64) DEFAULT NULL COMMENT '业务字段',
   `FIELD2` varchar(64) DEFAULT NULL COMMENT '业务字段',
   `FIELD3` varchar(64) DEFAULT NULL COMMENT '业务字段',
