@@ -303,6 +303,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_activiti_process_config` (
   `COMP_ID` varchar(64) NOT NULL COMMENT '公司ID（t_sys_comp.ID）',
   `DEPT_ID` varchar(64) NOT NULL COMMENT '部门ID（t_sys_dept.ID）',
   `AVAILABLE` bit(1) NOT NULL COMMENT 'true:可用;false:不可用;',
+  `PLATFORM_TYPE` varchar(8) NOT NULL COMMENT '平台类型（枚举）',
   `PROCESS_KEY` varchar(24) NOT NULL COMMENT '流程标识（枚举）',
   `PROCESS_TYPE` varchar(11) NOT NULL COMMENT '流程类型（枚举）',
   `PROCESS_CODE` varchar(64) NOT NULL COMMENT '流程编码（字典）',
