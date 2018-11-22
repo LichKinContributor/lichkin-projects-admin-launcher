@@ -627,7 +627,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_employee_punch_the_clock` (
   `VERSIONX` tinyint(4) NOT NULL COMMENT '客户端版本号（大版本号）',
   `VERSIONY` tinyint(4) NOT NULL COMMENT '客户端版本号（中版本号）',
   `VERSIONZ` smallint(6) NOT NULL COMMENT '客户端版本号（小版本号）',
-  `LOGIN_ID` varchar(64) NOT NULL COMMENT '员工ID（t_sys_employee.ID）',
+  `USER_ID` varchar(64) NOT NULL COMMENT '员工ID（t_sys_employee.ID）',
   `MAP_TYPE` varchar(4) NOT NULL COMMENT '地图API类型（枚举）',
   `LATITUDE` double NOT NULL COMMENT '纬度',
   `LONGITUDE` double NOT NULL COMMENT '经度',
