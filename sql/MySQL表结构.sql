@@ -792,6 +792,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_pss_purchase_stock_order_product` (
   `PRODUCT_ID` varchar(64) NOT NULL COMMENT '产品ID（t_sys_pss_product.ID）',
   `QUANTITY` int(11) NOT NULL COMMENT '产品数量',
   `SORT_ID` int(11) NOT NULL COMMENT '排序号',
+  `PURCHASE_ORDER_PRODUCT_ID` varchar(64) NOT NULL COMMENT '采购单产品ID（SysPssPurchaseOrderProductEntity.id）',
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '采购库存单产品表';
 
@@ -849,6 +850,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_pss_sell_stock_order_product` (
   `PRODUCT_ID` varchar(64) NOT NULL COMMENT '产品ID（t_sys_pss_product.ID）',
   `QUANTITY` int(11) NOT NULL COMMENT '产品数量',
   `SORT_ID` int(11) NOT NULL COMMENT '排序号',
+  `SELL_ORDER_PRODUCT_ID` varchar(64) NOT NULL COMMENT '销售单产品ID（SysPssSellOrderProductEntity.id）',
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '销售库存单产品表';
 
