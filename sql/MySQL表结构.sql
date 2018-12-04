@@ -127,7 +127,6 @@ CREATE TABLE IF NOT EXISTS `t_sys_admin_login_log` (
   `ID` varchar(64) NOT NULL COMMENT '主键',
   `COMP_ID` varchar(64) NOT NULL COMMENT '公司ID（t_sys_comp.ID）',
   `LOGIN_ID` varchar(64) NOT NULL COMMENT '管理员登录ID（t_sys_admin_login.ID）',
-  `REQUEST_DATAS` longtext NOT NULL COMMENT '请求数据（JSON）',
   `REQUEST_ID` varchar(64) NOT NULL COMMENT '请求ID',
   `REQUEST_IP` varchar(64) NOT NULL COMMENT '请求IP地址',
   `REQUEST_TIME` varchar(17) NOT NULL COMMENT '请求时间（yyyyMMddHHmmssSSS）',
