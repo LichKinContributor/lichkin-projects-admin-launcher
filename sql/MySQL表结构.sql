@@ -232,7 +232,6 @@ CREATE TABLE IF NOT EXISTS `t_sys_user_login` (
 -- DROP TABLE IF EXISTS `t_sys_user_oper_log`;
 CREATE TABLE IF NOT EXISTS `t_sys_user_oper_log` (
   `ID` varchar(64) NOT NULL COMMENT '主键',
-  `COMP_ID` varchar(64) NOT NULL COMMENT '公司ID（t_sys_comp.ID）',
   `OPER_TYPE` varchar(6) NOT NULL COMMENT '操作类型（枚举）',
   `LOGIN_ID` varchar(64) DEFAULT NULL COMMENT '管理员登录ID（t_sys_admin_login.ID）',
   `REQUEST_ID` varchar(64) NOT NULL COMMENT '请求ID',
