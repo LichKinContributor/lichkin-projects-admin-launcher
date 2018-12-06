@@ -883,7 +883,7 @@ $.LKExtendI18N({
       'title' : '员工打卡列表',
 
       'columns' : {
-        'userName':'姓名',
+        'userName' : '姓名',
         'insertTime' : '打卡时间',
         'address' : '打卡地点',
         'startDate' : '起始日期',
@@ -891,6 +891,19 @@ $.LKExtendI18N({
         'cellphone' : '手机号码',
       }
     }
+  }
+});
+$.LKExtendI18N({
+  'compAttendanceAreaConfigMgmt' : {
+    'title' : '设置打卡区域',
+
+    'coverage' : '打卡有效范围',
+    'longitude' : '经度',
+    'latitude' : '纬度',
+    'altitude' : '高度',
+    'radius' : '水平面半径',
+    'ogham' : '垂直面落差',
+    'set ok' : '设置成功'
   }
 });
 $.LKExtendI18N({

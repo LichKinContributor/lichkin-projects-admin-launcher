@@ -107,6 +107,9 @@ $.LKExtendICON({
   'employeePunchTheClockMgmt' : 'user-clock',
 });
 $.LKExtendICON({
+  'compAttendanceAreaConfigMgmt' : 'street-view',
+});
+$.LKExtendICON({
   'pssProductCategoryMgmt' : 'stream',
 });
 $.LKExtendICON({
