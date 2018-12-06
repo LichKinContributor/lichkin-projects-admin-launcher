@@ -58,6 +58,8 @@ CREATE TABLE IF NOT EXISTS `t_sys_dictionary` (
   `DICT_CODE` varchar(64) NOT NULL COMMENT '字典编码',
   `DICT_NAME` varchar(64) NOT NULL COMMENT '字典名称',
   `SORT_ID` tinyint(4) NOT NULL COMMENT '排序号',
+  `IMG_URL` varchar(256) DEFAULT NULL COMMENT '图片地址',
+  `DICT_VALUE` varchar(64) DEFAULT NULL COMMENT '字典值',
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='字典表';
 
