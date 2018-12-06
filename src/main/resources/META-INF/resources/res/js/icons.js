@@ -92,6 +92,9 @@ $.LKExtendICON({
   'appVersionMgmt' : 'code-branch',
 });
 $.LKExtendICON({
+  'appApiRequestLogMgmt' : 'book-open',
+});
+$.LKExtendICON({
   'compScheduleConfigMgmt' : 'calendar-alt',
 });
 $.LKExtendICON({
