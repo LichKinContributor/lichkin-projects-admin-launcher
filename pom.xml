@@ -33,6 +33,11 @@
       <artifactId>lichkin-projects-core-admin-ui</artifactId>
       <version>${com.lichkin.projects.core.version}</version>
     </dependency>
+    <dependency>
+      <groupId>com.lichkin.projects</groupId>
+      <artifactId>lichkin-projects-core-admin-index</artifactId>
+      <version>${com.lichkin.projects.core.version}</version>
+    </dependency>
     <!-- lichkin projects activiti -->
     <dependency>
       <groupId>com.lichkin.projects</groupId>
