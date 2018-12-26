@@ -1,4 +1,4 @@
-# lichkin-projects-admin-launcher
+# lichkin-projects-quartz-launcher
 
 #### 项目介绍
-管理后台启动项目
+定时任务启动项目
